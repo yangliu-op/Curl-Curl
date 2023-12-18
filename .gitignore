@@ -1,0 +1,4 @@
+# ignores all Experiments folders
+BCS/
+No BCS/
+output/
