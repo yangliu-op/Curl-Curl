@@ -2,6 +2,7 @@ from firedrake import *
 from firedrake.petsc import PETSc
 print = PETSc.Sys.Print
 
+bad = 1
 nx = 10
 mesh = UnitSquareMesh(nx, nx)
 
