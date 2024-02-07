@@ -7,5 +7,5 @@ We use the lifting formula (described in the paper [Obtaining Pseudo-inverse Sol
 
 One can drop the Boundry condition or use preconditioners inside the code manunally. 
 
-A corresponding recorded video (no precondioners, with boundry conditions) can be found at [https://www.youtube.com/watch?v=ivRa-O9DCMI&ab_channel=Yang](https://www.youtube.com/watch?v=ivRa-O9DCMI&ab_channel=Yang). 
+A corresponding recorded video (no precondioners, with boundry conditions) can be found at [https://www.youtube.com/watch?v=ivRa-O9DCMI](https://www.youtube.com/watch?v=ivRa-O9DCMI). 
 This video shows the lifted MINRES iterates converge to the pseudo-inverse solution iteratively.
