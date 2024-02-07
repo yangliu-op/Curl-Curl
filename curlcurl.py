@@ -157,25 +157,3 @@ with r.dat.vec_ro as rv, rlft.dat.vec_ro as rlftv:
 	#rv.view()
 	print("MINRES residual l2-norm", rv.norm())
 	print("Lifted residual l2-norm", rlftv.norm())
-
-# Bcs
-# RHS norm 6809.19331120761
-# Exact norm 8.907952592193048
-# ulft norm 9.556779874640705
-# u_minres norm 2150.5537316259115
-# u_exact - u_minres norm 2150.5354143619934
-# u_exact - u_lifted norm 3.5418693318190058
-# MINRES residual norm 6809.19331120761
-# Lifted residual norm 6813.504900263961
-
-# NO bcs
-# RHS norm 6854.490638257576
-# Exact norm 8.907952592193048
-# ulft norm 7.942369959386413
-# u_minres norm 1111.84435340314
-# u_exact - u_minres norm 1111.8341333175497
-# u_exact - u_lifted norm 4.076202449621155
-# MINRES residual norm 6854.490638257576
-# Lifted residual norm 6854.491594938664
-
-
